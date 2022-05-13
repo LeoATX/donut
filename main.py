@@ -18,7 +18,7 @@ for loop in range(len(gme)):
 # x = (AᵀA)⁻¹ * Aᵀ * b
 
 
-# non linear regression
+# linear and nonlinear regression
 def regression(power: int):
     matrix_a = list()
     for row in range(len(gme)):
