@@ -37,6 +37,10 @@ def regression(power: int):
     print(np.dot(np.dot(np.linalg.inv(np.dot(np.transpose(matrix_a), matrix_a)), np.transpose(matrix_a)), b))
 
 
+regression(0)
 regression(1)
 regression(2)
 regression(3)
+regression(4)
+regression(5)
+regression(8)
