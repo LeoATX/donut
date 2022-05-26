@@ -13,12 +13,15 @@ gme = list(reversed(gme))
 for loop in range(len(gme)):
     gme[loop][0] = loop
 
+for day in gme:
+    print(day)
+
 # y = C + Dx
 # Ax = b
 # x = (AᵀA)⁻¹ * Aᵀ * b
 
 
-# linear and nonlinear regression
+# linear regression
 def regression(power: int):
     matrix_a = list()
     for row in range(len(gme)):
